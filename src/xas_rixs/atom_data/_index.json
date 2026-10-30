@@ -1,0 +1,252 @@
+{
+"Ac": {
+"Z": 89,
+"group": 3,
+"valence_shell": "5f"
+},
+"Ag": {
+"Z": 47,
+"group": 11,
+"valence_shell": "4d"
+},
+"Am": {
+"Z": 95,
+"group": 9,
+"valence_shell": "5f"
+},
+"Au": {
+"Z": 79,
+"group": 11,
+"valence_shell": "5d"
+},
+"Bk": {
+"Z": 97,
+"group": 11,
+"valence_shell": "5f"
+},
+"Ce": {
+"Z": 58,
+"group": 4,
+"valence_shell": "4f"
+},
+"Cf": {
+"Z": 98,
+"group": 12,
+"valence_shell": "5f"
+},
+"Cm": {
+"Z": 96,
+"group": 10,
+"valence_shell": "5f"
+},
+"Co": {
+"Z": 27,
+"group": 9,
+"valence_shell": "3d"
+},
+"Cr": {
+"Z": 24,
+"group": 6,
+"valence_shell": "3d"
+},
+"Cu": {
+"Z": 29,
+"group": 11,
+"valence_shell": "3d"
+},
+"Dy": {
+"Z": 66,
+"group": 12,
+"valence_shell": "4f"
+},
+"Er": {
+"Z": 68,
+"group": 14,
+"valence_shell": "4f"
+},
+"Eu": {
+"Z": 63,
+"group": 9,
+"valence_shell": "4f"
+},
+"Fe": {
+"Z": 26,
+"group": 8,
+"valence_shell": "3d"
+},
+"Gd": {
+"Z": 64,
+"group": 10,
+"valence_shell": "4f"
+},
+"Hf": {
+"Z": 72,
+"group": 4,
+"valence_shell": "5d"
+},
+"Ho": {
+"Z": 67,
+"group": 13,
+"valence_shell": "4f"
+},
+"Ir": {
+"Z": 77,
+"group": 9,
+"valence_shell": "5d"
+},
+"La": {
+"Z": 57,
+"group": 3,
+"valence_shell": "4f"
+},
+"Mn": {
+"Z": 25,
+"group": 7,
+"valence_shell": "3d"
+},
+"Mo": {
+"Z": 42,
+"group": 6,
+"valence_shell": "4d"
+},
+"Nb": {
+"Z": 41,
+"group": 5,
+"valence_shell": "4d"
+},
+"Nd": {
+"Z": 60,
+"group": 6,
+"valence_shell": "4f"
+},
+"Ni": {
+"Z": 28,
+"group": 10,
+"valence_shell": "3d"
+},
+"Np": {
+"Z": 93,
+"group": 7,
+"valence_shell": "5f"
+},
+"Os": {
+"Z": 76,
+"group": 8,
+"valence_shell": "5d"
+},
+"Pa": {
+"Z": 91,
+"group": 5,
+"valence_shell": "5f"
+},
+"Pd": {
+"Z": 46,
+"group": 10,
+"valence_shell": "4d"
+},
+"Pm": {
+"Z": 61,
+"group": 7,
+"valence_shell": "4f"
+},
+"Pr": {
+"Z": 59,
+"group": 5,
+"valence_shell": "4f"
+},
+"Pt": {
+"Z": 78,
+"group": 10,
+"valence_shell": "5d"
+},
+"Pu": {
+"Z": 94,
+"group": 8,
+"valence_shell": "5f"
+},
+"Re": {
+"Z": 75,
+"group": 7,
+"valence_shell": "5d"
+},
+"Rh": {
+"Z": 45,
+"group": 9,
+"valence_shell": "4d"
+},
+"Ru": {
+"Z": 44,
+"group": 8,
+"valence_shell": "4d"
+},
+"Sc": {
+"Z": 21,
+"group": 3,
+"valence_shell": "3d"
+},
+"Sm": {
+"Z": 62,
+"group": 8,
+"valence_shell": "4f"
+},
+"Ta": {
+"Z": 73,
+"group": 5,
+"valence_shell": "5d"
+},
+"Tb": {
+"Z": 65,
+"group": 11,
+"valence_shell": "4f"
+},
+"Tc": {
+"Z": 43,
+"group": 7,
+"valence_shell": "4d"
+},
+"Th": {
+"Z": 90,
+"group": 4,
+"valence_shell": "5f"
+},
+"Ti": {
+"Z": 22,
+"group": 4,
+"valence_shell": "3d"
+},
+"Tm": {
+"Z": 69,
+"group": 15,
+"valence_shell": "4f"
+},
+"U": {
+"Z": 92,
+"group": 6,
+"valence_shell": "5f"
+},
+"V": {
+"Z": 23,
+"group": 5,
+"valence_shell": "3d"
+},
+"W": {
+"Z": 74,
+"group": 6,
+"valence_shell": "5d"
+},
+"Y": {
+"Z": 39,
+"group": 3,
+"valence_shell": "4d"
+},
+"Yb": {
+"Z": 70,
+"group": 16,
+"valence_shell": "4f"
+},
+"Zr": {
+"Z": 40,
+"group": 4,
+"valence_shell": "4d"
+}
+}

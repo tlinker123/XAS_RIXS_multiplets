@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xas-rixs"
+version = "0.1.0"
+description = "XAS and RIXS of transition-metal, lanthanide and actinide ions in the single-ion multiplet model, built on EDRIXS"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+keywords = [
+    "XAS", "RIXS", "XMCD", "x-ray absorption", "resonant inelastic x-ray scattering",
+    "multiplet", "crystal field", "EDRIXS",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+# NOTE: edrixs itself is not declared here -- it is not reliably installable
+# from PyPI.  Install it from conda-forge or put a checkout on PYTHONPATH; see
+# "Installation" in README.md.
+dependencies = [
+    "numpy>=1.20",
+    "scipy>=1.7",
+    "sympy",          # imported at module level by edrixs.utils
+    "matplotlib",     # plotting helpers, --plot, examples/
+]
+
+[project.optional-dependencies]
+tables = ["h5py"]     # only tools/make_atom_data.py needs this
+test = ["pytest"]
+dev = ["pytest", "h5py"]
+
+[project.scripts]
+xas-rixs = "xas_rixs.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+xas_rixs = ["atom_data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: takes tens of seconds or more"]

@@ -1,0 +1,32 @@
+# --- upstream EDRIXS -------------------------------------------------------
+# a dependency with its own repository and licence; see README "Installation"
+edrixs/
+
+# --- generated output ------------------------------------------------------
+output/
+*_xas.dat
+*_rixs.dat
+*_poles.dat
+*_info.json
+.atom_data_cache/
+*.log
+
+# --- python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- local tool config -----------------------------------------------------
+.claude/settings.local.json
+
+# --- editors / OS ----------------------------------------------------------
+.DS_Store
+.vscode/
+.idea/
